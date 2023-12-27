@@ -19,6 +19,11 @@ What is the output of the following code?
     print("l: ", l)
     print("nl: ", nl)
 
+#Output
+Result:
+l: [0, 1, 2, 3, 4]
+nl: [4, 3, 2, 1, 0]
+
 
 ## Exercise #2
 
@@ -53,6 +58,11 @@ What is the output of the following code?
     print("l: ", l)
     print("nl: ", nl)
 
+#Output
+Result:
+l: [0, 1, 2, 3, 4]
+nl: [4, 3, 2, 1, 0]
+
 
 ## Exercise #4
 
@@ -69,3 +79,7 @@ This exercise is a bit more challenging than the previous ones. What is the outp
     l = [0, 1, 2, 3, 4]
     mystery3(l)
     print("l: ", l)
+
+#Output
+Result:
+l: [4, 3, 2, 1, 0]
