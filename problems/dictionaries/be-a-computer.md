@@ -35,6 +35,10 @@ What is the output of the following code?
     print(f1(stocks))
     print()
 
+#Output
+Result:
+{'AMD': 1, 'GOOG': 1, 'QQQ': 2}
+
 ## Exercise #2
 
 What is the output of the following code?
@@ -54,6 +58,10 @@ What is the output of the following code?
     print("Result:")
     print(f2(stocks, 0))
     print()
+
+#Output:
+Result:
+{'2010-11-09': ['QQQ'], '2010-11-10': ['AMD', 'BSD', 'GOOG'], '2010-11-11': ['AMD', 'GOOG']}
 
 ## Exercise #3
 
@@ -76,3 +84,7 @@ This exercise is a bit more challenging than the previous two. What is the outpu
     print("Result:")
     print(f3(stocks))
     print()
+    
+#Output:
+Result:
+{'2010-11-09': [624.82, ['GOOG']], '2010-11-10': [630.40, ['BSB', 'GOOG']], '2010-11-11-: [634.82, ['GOOG']]}
