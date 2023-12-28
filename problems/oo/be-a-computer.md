@@ -36,6 +36,10 @@ What is the output of the following code?
     m1.do_d((m0.get_a(), m1.get_b()))
     print(m1)
 
+#Output:
+(3, 12, 15)
+(4, 16, 20)
+
 ## Exercise #2
 
 This exercise uses the following constants and data:
@@ -99,3 +103,7 @@ What is the output of the following code?
     mystery(d, entries)
     for s in d["GOOG"]:
         print(s)
+#Output
+2010-11-09|GOOG|630.00|625.00
+2010-11-10|GOOG|630.00|634.82
+2010-11-11|GOOG|630.00|634.82
