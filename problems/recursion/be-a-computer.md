@@ -20,6 +20,11 @@ What is the output of the following code?
     print(mystery("x", "y", 5, "z"))
     print()
 
+#Output
+Result:
+yyyz
+xyyz
+
 
 ## Exercise #2
 
@@ -44,6 +49,10 @@ What is the output of the following code?
     for c in s:
         t = t + c
     print(t)
+
+#Output
+Result:
+-*--****--------****************--------------------------------
 
 
 ## Exercise #3
