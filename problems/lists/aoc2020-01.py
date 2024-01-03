@@ -18,8 +18,10 @@ def part1(numbers):
     Returns an integer
     """
 
-    ### Replace with your code
-    return None
+    for num in numbers:
+        for num2 in numbers:
+            if num + num2 == 2020:
+                return num * num2
 
 
 def part2(numbers):
@@ -32,8 +34,11 @@ def part2(numbers):
     Returns an integer
     """
 
-    ### Replace with your code
-    return None
+    for num in numbers:
+        for num2 in numbers:
+            for num3 in numbers:
+                if num + num2 + num3 == 2020:
+                    return num * num2 * num3
 
 
 ############################################
