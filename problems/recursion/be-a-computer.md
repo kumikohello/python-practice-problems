@@ -69,6 +69,16 @@ What is the output of the following code?
     print("Result:")
     mystery2(4)
 
+Result:
+1
+2
+3
+1
+4
+1
+2
+
+
 ## Exercise #4
 
 This exercise is a bit more challenging than the previous ones. What is the output of the following code?
@@ -93,3 +103,12 @@ This exercise is a bit more challenging than the previous ones. What is the outp
 
     print("Result:")
     recursion_warmup()
+
+Result:
+mystery3("ab", "a", "b", 0): 0
+mystery3("abab", "a", "b", 0): 0
+mystery3("abaab", "a", "b", 0): 1
+mystery3("ababb", "a", "b", 0): -1
+mystery3("ababaa", "a", "b", 0): 2
+
+    
