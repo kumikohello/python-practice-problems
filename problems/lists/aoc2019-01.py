@@ -18,8 +18,10 @@ def part1(numbers):
     Returns an integer
     """
 
-    ### Replace with your code
-    return None
+    total_fuel = 0
+    for num in numbers:
+        total_fuel += num // 3 - 2
+    return total_fuel
 
 
 def part2(numbers):
