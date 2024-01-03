@@ -18,8 +18,10 @@ def part1(numbers):
     Returns an integer
     """
 
-    ### Replace with your code
-    return None
+    result = 0
+    for num in numbers:
+        result += num // 3 - 2
+    return result
 
 
 def part2(numbers):
