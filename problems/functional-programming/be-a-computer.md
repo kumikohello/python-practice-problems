@@ -15,6 +15,8 @@ What is the output of the following code?
     l = functional_programming_warmup()
     print(list(l))
 
+Result:
+[1, 4, 7]
 
 ## Exercise #2
 
@@ -32,6 +34,9 @@ What is the output of the following code?
     f = mystery2(lambda x: x+1, 10)
     print(f(10))
 
+Result:
+30
+
 
 ## Exercise #3
 
@@ -46,3 +51,6 @@ What is the output of the following code?
     print(list(filter(gen_fn(10), map(lambda x: x * 2, [10, 25, -10, 18, -9]))))
     print(list(map(lambda x: x * 2, filter(gen_fn(5), [10, 25, -10, 100, -9]))))
 
+Result:
+[20, 50, -20]
+[20, 50, -20, 200]
